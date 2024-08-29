@@ -1,4 +1,5 @@
-ARG IMAGE=nginxinc/nginx-unprivileged:%%NGINX_VERSION%%-alpine-slim
+#ARG IMAGE=nginxinc/nginx-unprivileged:%%NGINX_VERSION%%-alpine-slim
+ARG IMAGE=nginxinc/nginx-unprivileged
 FROM $IMAGE
 
 ENV NJS_VERSION=%%NJS_VERSION%%
